@@ -1,0 +1,191 @@
+Error inserting row: {'1': '2', 'Marketing Assistant': 'VP Sales'} - Error: 'id'
+Error inserting row: {'1': '3', 'Marketing Assistant': 'Biostatistician IV'} - Error: 'id'
+Error inserting row: {'1': '4', 'Marketing Assistant': 'Account Representative II'} - Error: 'id'
+Error inserting row: {'1': '5', 'Marketing Assistant': 'VP Marketing'} - Error: 'id'
+Error inserting row: {'1': '6', 'Marketing Assistant': 'Environmental Specialist'} - Error: 'id'
+Error inserting row: {'1': '7', 'Marketing Assistant': 'Software Consultant'} - Error: 'id'
+Error inserting row: {'1': '8', 'Marketing Assistant': 'Office Assistant III'} - Error: 'id'
+Error inserting row: {'1': '9', 'Marketing Assistant': 'Information Systems Manager'} - Error: 'id'
+Error inserting row: {'1': '10', 'Marketing Assistant': 'Desktop Support Technician'} - Error: 'id'
+Error inserting row: {'1': '11', 'Marketing Assistant': 'Financial Advisor'} - Error: 'id'
+Error inserting row: {'1': '12', 'Marketing Assistant': 'Computer Systems Analyst I'} - Error: 'id'
+Error inserting row: {'1': '13', 'Marketing Assistant': 'Automation Specialist IV'} - Error: 'id'
+Error inserting row: {'1': '14', 'Marketing Assistant': 'Help Desk Technician'} - Error: 'id'
+Error inserting row: {'1': '15', 'Marketing Assistant': 'Office Assistant II'} - Error: 'id'
+Error inserting row: {'1': '16', 'Marketing Assistant': 'VP Quality Control'} - Error: 'id'
+Error inserting row: {'1': '17', 'Marketing Assistant': 'Office Assistant IV'} - Error: 'id'
+Error inserting row: {'1': '18', 'Marketing Assistant': 'Financial Analyst'} - Error: 'id'
+Error inserting row: {'1': '19', 'Marketing Assistant': 'Electrical Engineer'} - Error: 'id'
+Error inserting row: {'1': '20', 'Marketing Assistant': 'Chemical Engineer'} - Error: 'id'
+Error inserting row: {'1': '21', 'Marketing Assistant': 'Social Worker'} - Error: 'id'
+Error inserting row: {'1': '22', 'Marketing Assistant': 'VP Product Management'} - Error: 'id'
+Error inserting row: {'1': '23', 'Marketing Assistant': 'Administrative Officer'} - Error: 'id'
+Error inserting row: {'1': '24', 'Marketing Assistant': 'Paralegal'} - Error: 'id'
+Error inserting row: {'1': '25', 'Marketing Assistant': 'Actuary'} - Error: 'id'
+Error inserting row: {'1': '26', 'Marketing Assistant': 'Database Administrator I'} - Error: 'id'
+Error inserting row: {'1': '27', 'Marketing Assistant': 'Nuclear Power Engineer'} - Error: 'id'
+Error inserting row: {'1': '28', 'Marketing Assistant': 'Database Administrator II'} - Error: 'id'
+Error inserting row: {'1': '29', 'Marketing Assistant': 'GIS Technical Architect'} - Error: 'id'
+Error inserting row: {'1': '30', 'Marketing Assistant': 'Human Resources Assistant IV'} - Error: 'id'
+Error inserting row: {'1': '31', 'Marketing Assistant': 'Marketing Manager'} - Error: 'id'
+Error inserting row: {'1': '32', 'Marketing Assistant': 'Structural Engineer'} - Error: 'id'
+Error inserting row: {'1': '33', 'Marketing Assistant': 'General Manager'} - Error: 'id'
+Error inserting row: {'1': '34', 'Marketing Assistant': 'Chief Design Engineer'} - Error: 'id'
+Error inserting row: {'1': '35', 'Marketing Assistant': 'Senior Quality Engineer'} - Error: 'id'
+Error inserting row: {'1': '36', 'Marketing Assistant': 'Pharmacist'} - Error: 'id'
+Error inserting row: {'1': '37', 'Marketing Assistant': 'Accounting Assistant IV'} - Error: 'id'
+Error inserting row: {'1': '38', 'Marketing Assistant': 'Web Developer I'} - Error: 'id'
+Error inserting row: {'1': '39', 'Marketing Assistant': 'Automation Specialist I'} - Error: 'id'
+Error inserting row: {'1': '40', 'Marketing Assistant': 'Assistant Manager'} - Error: 'id'
+Error inserting row: {'1': '41', 'Marketing Assistant': 'Director of Sales'} - Error: 'id'
+Error inserting row: {'1': '42', 'Marketing Assistant': 'Systems Administrator II'} - Error: 'id'
+Error inserting row: {'1': '43', 'Marketing Assistant': 'Geological Engineer'} - Error: 'id'
+Error inserting row: {'1': '44', 'Marketing Assistant': 'Staff Accountant IV'} - Error: 'id'
+Error inserting row: {'1': '45', 'Marketing Assistant': 'Senior Cost Accountant'} - Error: 'id'
+Error inserting row: {'1': '46', 'Marketing Assistant': 'Geologist IV'} - Error: 'id'
+Error inserting row: {'1': '47', 'Marketing Assistant': 'Graphic Designer'} - Error: 'id'
+Error inserting row: {'1': '48', 'Marketing Assistant': 'Account Executive'} - Error: 'id'
+Error inserting row: {'1': '49', 'Marketing Assistant': 'Staff Scientist'} - Error: 'id'
+Error inserting row: {'1': '50', 'Marketing Assistant': 'VP Accounting'} - Error: 'id'
+Error inserting row: {'1': '51', 'Marketing Assistant': 'Quality Control Specialist'} - Error: 'id'
+Error inserting row: {'1': '52', 'Marketing Assistant': 'Structural Analysis Engineer'} - Error: 'id'
+Error inserting row: {'1': '53', 'Marketing Assistant': 'Food Chemist'} - Error: 'id'
+Error inserting row: {'1': '54', 'Marketing Assistant': 'Systems Administrator IV'} - Error: 'id'
+Error inserting row: {'1': '55', 'Marketing Assistant': 'Software Test Engineer IV'} - Error: 'id'
+Error inserting row: {'1': '56', 'Marketing Assistant': 'Analyst Programmer'} - Error: 'id'
+Error inserting row: {'1': '57', 'Marketing Assistant': 'Clinical Specialist'} - Error: 'id'
+Error inserting row: {'1': '58', 'Marketing Assistant': 'Teacher'} - Error: 'id'
+Error inserting row: {'1': '59', 'Marketing Assistant': 'Budget/Accounting Analyst IV'} - Error: 'id'
+Error inserting row: {'1': '60', 'Marketing Assistant': 'Recruiter'} - Error: 'id'
+Error inserting row: {'1': '61', 'Marketing Assistant': 'Geologist II'} - Error: 'id'
+Error inserting row: {'1': '62', 'Marketing Assistant': 'Associate Professor'} - Error: 'id'
+Error inserting row: {'1': '63', 'Marketing Assistant': 'Executive Secretary'} - Error: 'id'
+Error inserting row: {'1': '64', 'Marketing Assistant': 'Senior Editor'} - Error: 'id'
+Error inserting row: {'1': '65', 'Marketing Assistant': 'Civil Engineer'} - Error: 'id'
+Error inserting row: {'1': '66', 'Marketing Assistant': 'Junior Executive'} - Error: 'id'
+Error inserting row: {'1': '67', 'Marketing Assistant': 'Senior Financial Analyst'} - Error: 'id'
+Error inserting row: {'1': '68', 'Marketing Assistant': 'Programmer IV'} - Error: 'id'
+Error inserting row: {'1': '69', 'Marketing Assistant': 'Biostatistician III'} - Error: 'id'
+Error inserting row: {'1': '70', 'Marketing Assistant': 'Dental Hygienist'} - Error: 'id'
+Error inserting row: {'1': '71', 'Marketing Assistant': 'Statistician II'} - Error: 'id'
+Error inserting row: {'1': '72', 'Marketing Assistant': 'Web Designer I'} - Error: 'id'
+Error inserting row: {'1': '73', 'Marketing Assistant': 'Sales Representative'} - Error: 'id'
+Error inserting row: {'1': '74', 'Marketing Assistant': 'Engineer III'} - Error: 'id'
+Error inserting row: {'1': '75', 'Marketing Assistant': 'Community Outreach Specialist'} - Error: 'id'
+Error inserting row: {'1': '76', 'Marketing Assistant': 'Budget/Accounting Analyst III'} - Error: 'id'
+Error inserting row: {'1': '77', 'Marketing Assistant': 'Database Administrator III'} - Error: 'id'
+Error inserting row: {'1': '78', 'Marketing Assistant': 'Recruiting Manager'} - Error: 'id'
+Error inserting row: {'1': '79', 'Marketing Assistant': 'Programmer III'} - Error: 'id'
+Error inserting row: {'1': '80', 'Marketing Assistant': 'Quality Engineer'} - Error: 'id'
+Error inserting row: {'1': '81', 'Marketing Assistant': 'Health Coach IV'} - Error: 'id'
+Error inserting row: {'1': '82', 'Marketing Assistant': 'Assistant Professor'} - Error: 'id'
+Error inserting row: {'1': '83', 'Marketing Assistant': 'Cost Accountant'} - Error: 'id'
+Error inserting row: {'1': '84', 'Marketing Assistant': 'Software Engineer I'} - Error: 'id'
+Error inserting row: {'1': '85', 'Marketing Assistant': 'Research Assistant II'} - Error: 'id'
+Error inserting row: {'1': '86', 'Marketing Assistant': 'Research Assistant IV'} - Error: 'id'
+Error inserting row: {'1': '87', 'Marketing Assistant': 'Accountant I'} - Error: 'id'
+Error inserting row: {'1': '88', 'Marketing Assistant': 'Accountant IV'} - Error: 'id'
+Error inserting row: {'1': '89', 'Marketing Assistant': 'Account Representative IV'} - Error: 'id'
+Error inserting row: {'1': '90', 'Marketing Assistant': 'Computer Systems Analyst IV'} - Error: 'id'
+Error inserting row: {'1': '91', 'Marketing Assistant': 'Product Engineer'} - Error: 'id'
+Error inserting row: {'1': '92', 'Marketing Assistant': 'Account Coordinator'} - Error: 'id'
+Error inserting row: {'1': '93', 'Marketing Assistant': 'Engineer IV'} - Error: 'id'
+Error inserting row: {'1': '94', 'Marketing Assistant': 'Software Engineer III'} - Error: 'id'
+Error inserting row: {'1': '95', 'Marketing Assistant': 'Web Designer II'} - Error: 'id'
+Error inserting row: {'1': '96', 'Marketing Assistant': 'Health Coach III'} - Error: 'id'
+Error inserting row: {'1': '97', 'Marketing Assistant': 'Media Manager III'} - Error: 'id'
+Error inserting row: {'1': '98', 'Marketing Assistant': 'Librarian'} - Error: 'id'
+Error inserting row: {'1': '99', 'Marketing Assistant': 'Environmental Tech'} - Error: 'id'
+Error inserting row: {'1': '100', 'Marketing Assistant': 'Senior Developer'} - Error: 'id'
+Error inserting row: {'1': '101', 'Marketing Assistant': 'Software Test Engineer I'} - Error: 'id'
+Error inserting row: {'1': '102', 'Marketing Assistant': 'Analog Circuit Design manager'} - Error: 'id'
+Error inserting row: {'1': '103', 'Marketing Assistant': 'Project Manager'} - Error: 'id'
+Error inserting row: {'1': '104', 'Marketing Assistant': 'Occupational Therapist'} - Error: 'id'
+Error inserting row: {'1': '105', 'Marketing Assistant': 'Registered Nurse'} - Error: 'id'
+Error inserting row: {'1': '106', 'Marketing Assistant': 'Operator'} - Error: 'id'
+Error inserting row: {'1': '107', 'Marketing Assistant': 'Legal Assistant'} - Error: 'id'
+Error inserting row: {'1': '108', 'Marketing Assistant': 'Nurse'} - Error: 'id'
+Error inserting row: {'1': '109', 'Marketing Assistant': 'Technical Writer'} - Error: 'id'
+Error inserting row: {'1': '110', 'Marketing Assistant': 'Senior Sales Associate'} - Error: 'id'
+Error inserting row: {'1': '111', 'Marketing Assistant': 'Programmer I'} - Error: 'id'
+Error inserting row: {'1': '112', 'Marketing Assistant': 'Administrative Assistant I'} - Error: 'id'
+Error inserting row: {'1': '113', 'Marketing Assistant': 'Internal Auditor'} - Error: 'id'
+Error inserting row: {'1': '114', 'Marketing Assistant': 'Professor'} - Error: 'id'
+Error inserting row: {'1': '115', 'Marketing Assistant': 'Tax Accountant'} - Error: 'id'
+Error inserting row: {'1': '116', 'Marketing Assistant': 'Data Coordiator'} - Error: 'id'
+Error inserting row: {'1': '117', 'Marketing Assistant': 'Mechanical Systems Engineer'} - Error: 'id'
+Error inserting row: {'1': '118', 'Marketing Assistant': 'Web Developer II'} - Error: 'id'
+Error inserting row: {'1': '119', 'Marketing Assistant': 'Programmer Analyst IV'} - Error: 'id'
+Error inserting row: {'1': '120', 'Marketing Assistant': 'Editor'} - Error: 'id'
+Error inserting row: {'1': '121', 'Marketing Assistant': 'Web Developer III'} - Error: 'id'
+Error inserting row: {'1': '122', 'Marketing Assistant': 'Assistant Media Planner'} - Error: 'id'
+Error inserting row: {'1': '123', 'Marketing Assistant': 'Statistician I'} - Error: 'id'
+Error inserting row: {'1': '124', 'Marketing Assistant': 'Physical Therapy Assistant'} - Error: 'id'
+Error inserting row: {'1': '125', 'Marketing Assistant': 'Nurse Practicioner'} - Error: 'id'
+Error inserting row: {'1': '126', 'Marketing Assistant': 'Budget/Accounting Analyst II'} - Error: 'id'
+Error inserting row: {'1': '127', 'Marketing Assistant': 'Developer II'} - Error: 'id'
+Error inserting row: {'id': '1', 'job': 'Marketing Assistant'} - Error: (1062, "Duplicate entry '1' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '2', 'job': 'VP Sales'} - Error: (1062, "Duplicate entry '2' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '3', 'job': 'Biostatistician IV'} - Error: (1062, "Duplicate entry '3' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '4', 'job': 'Account Representative II'} - Error: (1062, "Duplicate entry '4' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '5', 'job': 'VP Marketing'} - Error: (1062, "Duplicate entry '5' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '6', 'job': 'Environmental Specialist'} - Error: (1062, "Duplicate entry '6' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '7', 'job': 'Software Consultant'} - Error: (1062, "Duplicate entry '7' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '8', 'job': 'Office Assistant III'} - Error: (1062, "Duplicate entry '8' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '9', 'job': 'Information Systems Manager'} - Error: (1062, "Duplicate entry '9' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '10', 'job': 'Desktop Support Technician'} - Error: (1062, "Duplicate entry '10' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '11', 'job': 'Financial Advisor'} - Error: (1062, "Duplicate entry '11' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '12', 'job': 'Computer Systems Analyst I'} - Error: (1062, "Duplicate entry '12' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '13', 'job': 'Automation Specialist IV'} - Error: (1062, "Duplicate entry '13' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '14', 'job': 'Help Desk Technician'} - Error: (1062, "Duplicate entry '14' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '15', 'job': 'Office Assistant II'} - Error: (1062, "Duplicate entry '15' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '16', 'job': 'VP Quality Control'} - Error: (1062, "Duplicate entry '16' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '17', 'job': 'Office Assistant IV'} - Error: (1062, "Duplicate entry '17' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '18', 'job': 'Financial Analyst'} - Error: (1062, "Duplicate entry '18' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '19', 'job': 'Electrical Engineer'} - Error: (1062, "Duplicate entry '19' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '20', 'job': 'Chemical Engineer'} - Error: (1062, "Duplicate entry '20' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '21', 'job': 'Social Worker'} - Error: (1062, "Duplicate entry '21' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '22', 'job': 'VP Product Management'} - Error: (1062, "Duplicate entry '22' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '23', 'job': 'Administrative Officer'} - Error: (1062, "Duplicate entry '23' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '24', 'job': 'Paralegal'} - Error: (1062, "Duplicate entry '24' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '25', 'job': 'Actuary'} - Error: (1062, "Duplicate entry '25' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '26', 'job': 'Database Administrator I'} - Error: (1062, "Duplicate entry '26' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '27', 'job': 'Nuclear Power Engineer'} - Error: (1062, "Duplicate entry '27' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '28', 'job': 'Database Administrator II'} - Error: (1062, "Duplicate entry '28' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '29', 'job': 'GIS Technical Architect'} - Error: (1062, "Duplicate entry '29' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '30', 'job': 'Human Resources Assistant IV'} - Error: (1062, "Duplicate entry '30' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '31', 'job': 'Marketing Manager'} - Error: (1062, "Duplicate entry '31' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '32', 'job': 'Structural Engineer'} - Error: (1062, "Duplicate entry '32' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '33', 'job': 'General Manager'} - Error: (1062, "Duplicate entry '33' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '34', 'job': 'Chief Design Engineer'} - Error: (1062, "Duplicate entry '34' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '35', 'job': 'Senior Quality Engineer'} - Error: (1062, "Duplicate entry '35' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '36', 'job': 'Pharmacist'} - Error: (1062, "Duplicate entry '36' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '37', 'job': 'Accounting Assistant IV'} - Error: (1062, "Duplicate entry '37' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '38', 'job': 'Web Developer I'} - Error: (1062, "Duplicate entry '38' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '39', 'job': 'Automation Specialist I'} - Error: (1062, "Duplicate entry '39' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '40', 'job': 'Assistant Manager'} - Error: (1062, "Duplicate entry '40' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '41', 'job': 'Director of Sales'} - Error: (1062, "Duplicate entry '41' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '42', 'job': 'Systems Administrator II'} - Error: (1062, "Duplicate entry '42' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '43', 'job': 'Geological Engineer'} - Error: (1062, "Duplicate entry '43' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '44', 'job': 'Staff Accountant IV'} - Error: (1062, "Duplicate entry '44' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '45', 'job': 'Senior Cost Accountant'} - Error: (1062, "Duplicate entry '45' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '46', 'job': 'Geologist IV'} - Error: (1062, "Duplicate entry '46' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '47', 'job': 'Graphic Designer'} - Error: (1062, "Duplicate entry '47' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '48', 'job': 'Account Executive'} - Error: (1062, "Duplicate entry '48' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '49', 'job': 'Staff Scientist'} - Error: (1062, "Duplicate entry '49' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '50', 'job': 'VP Accounting'} - Error: (1062, "Duplicate entry '50' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '51', 'job': 'Quality Control Specialist'} - Error: (1062, "Duplicate entry '51' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '52', 'job': 'Structural Analysis Engineer'} - Error: (1062, "Duplicate entry '52' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '53', 'job': 'Food Chemist'} - Error: (1062, "Duplicate entry '53' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '54', 'job': 'Systems Administrator IV'} - Error: (1062, "Duplicate entry '54' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '55', 'job': 'Software Test Engineer IV'} - Error: (1062, "Duplicate entry '55' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '56', 'job': 'Analyst Programmer'} - Error: (1062, "Duplicate entry '56' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '57', 'job': 'Clinical Specialist'} - Error: (1062, "Duplicate entry '57' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '58', 'job': 'Teacher'} - Error: (1062, "Duplicate entry '58' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '59', 'job': 'Budget/Accounting Analyst IV'} - Error: (1062, "Duplicate entry '59' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '60', 'job': 'Recruiter'} - Error: (1062, "Duplicate entry '60' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '61', 'job': 'Geologist II'} - Error: (1062, "Duplicate entry '61' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '62', 'job': 'Associate Professor'} - Error: (1062, "Duplicate entry '62' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '63', 'job': 'Executive Secretary'} - Error: (1062, "Duplicate entry '63' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '64', 'job': 'Senior Editor'} - Error: (1062, "Duplicate entry '64' for key 'jobs.PRIMARY'")
+Error inserting row: {'id': '65', 'job': 'Civil Engineer'} - Error: (1062, "Duplicate entry '65' for key 'jobs.PRIMARY'")
