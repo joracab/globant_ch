@@ -127,8 +127,8 @@ def process_employee(file_path, error_file):
 
 if __name__ == "__main__":
     if os.path.exists(csv_file_path2):
-      #process_jobs(csv_file_path2, error_file_path2)
-      #process_dept(csv_file_path3, error_file_path3)
+      process_jobs(csv_file_path2, error_file_path2)
+      process_dept(csv_file_path3, error_file_path3)
       process_employee(csv_file_path1, error_file_path1)
       
     else:
