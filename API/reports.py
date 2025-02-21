@@ -56,6 +56,7 @@ def get_hiring_report():
         connection.close()
 
 @reports_bp.route("/top-hiring-departments", methods=["GET"])
+
 def get_top_hiring_departments():
   
     try:
