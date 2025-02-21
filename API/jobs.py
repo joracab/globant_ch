@@ -17,7 +17,7 @@ def get_db_connection():
 
 
 # get all jobs
-@jobs_bp.route("/jobs", methods=["GET"])
+@jobs_bp.route("/", methods=["GET"])
 def get_jobs():
     try:
         with get_db_connection() as connection, connection.cursor() as cursor:
@@ -28,7 +28,7 @@ def get_jobs():
         return jsonify({"error": str(e)}), 500
 
 # Get job by ID
-@jobs_bp.route("/jobs/<int:id>", methods=["GET"])
+@jobs_bp.route("/<int:id>", methods=["GET"])
 def get_job(id):
     try:
         with get_db_connection() as connection, connection.cursor() as cursor:
@@ -41,7 +41,7 @@ def get_job(id):
         return jsonify({"error": str(e)}), 500
 
 # Insert new job
-@jobs_bp.route("/jobs", methods=["POST"])
+@jobs_bp.route("/", methods=["POST"])
 def create_job():
     try:
         data = request.json
