@@ -16,6 +16,7 @@ def get_db_connection():
         cursorclass=pymysql.cursors.DictCursor
     )
 
+
 @reports_bp.route("/hiring-report", methods=["GET"])
 def get_hiring_report():
     
