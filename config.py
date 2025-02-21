@@ -1,7 +1,5 @@
 import os
-
-import os
-
+import pymysql
 class Config:
     DB_HOST = os.getenv("DB_HOST", "ymysql-1ce5eb8-jose-eae6.e.aivencloud.com")
     DB_USER = os.getenv("DB_USER", "avnadmin")
