@@ -18,5 +18,4 @@ app.register_blueprint(reports_bp, url_prefix="/reports")
 
 
 if __name__ == "__main__":
-
     app.run(port=8000,debug=True)
