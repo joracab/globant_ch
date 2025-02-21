@@ -1,18 +1,8 @@
-
-# prompt: # prompt: # prompt: # prompt: create an ascript  to consume an CSV file from a folder and insert the the data in a remote mysql database
-# # # # to a table in the following  structure
-# # # # id INTEGER Id of the employee
-# # # #  name STRING Name and surname of the employee
-# # # #  datetime STRING Hire datetime in ISO format
-# # # #  department_id INTEGER Id of the department which the employee was hired for
-# # # #  job_id INTEGER Id.
-# # # #  if an error exists send the record to a error fille and continue  with next record anteh id column is autonumeric in the database
-
 import pymysql
 import csv
 import os
-
-# Database connection parameters (replace with your actual credentials)
+from datetime import datetime
+# Database connection parameters 
 db_config = {
     "host": "mysql-1ce5eb8-jose-eae6.e.aivencloud.com",
     "port": 20906,
@@ -23,14 +13,14 @@ db_config = {
     "cursorclass": pymysql.cursors.DictCursor
 }
 
-# CSV file and error log file paths (replace with your actual paths)
-csv_file_path1 = "data/hired_employees.csv" # Example file path, change to your actual file
+
+csv_file_path1 = "data/hired_employees.csv" # Example file path
 error_file_path1 = "error_records_employees.txt"
 
-csv_file_path2 = "data/jobs.csv" # Example file path, change to your actual file
+csv_file_path2 = "data/jobs.csv" 
 error_file_path2 = "error_records_jobs.txt"
 
-csv_file_path3 = "data/departments.csv" # Example file path, change to your actual file
+csv_file_path3 = "data/departments.csv" 
 error_file_path3 = "error_records_deps.txt"
 
 def process_dept(file_path, error_file):
@@ -42,7 +32,7 @@ def process_dept(file_path, error_file):
             csv_reader = csv.DictReader(file) # Assuming the first row is a header
             for row in csv_reader:
                 try:
-                  # Prepare SQL query (adapt field names to match your CSV)
+                  #SQL query 
                     sql = """
                         INSERT INTO departments (id, department) 
                         VALUES (%s, %s)
@@ -53,7 +43,7 @@ def process_dept(file_path, error_file):
                 except Exception as e:
                     with open(error_file, "a") as error_log:
                         error_log.write(f"Error inserting row: {row} - Error: {e}\n")
-                    print(f"Error inserting row: {row} - Error: {e}")  # Optionally print to console
+                    print(f"Error inserting row: {row} - Error: {e}")  
                     connection.rollback() # rollback transaction in case of error
 
         print(f"CSV file '{file_path}' processed successfully.")
@@ -75,7 +65,7 @@ def process_jobs(file_path, error_file):
             csv_reader = csv.DictReader(file) # Assuming the first row is a header
             for row in csv_reader:
                 try:
-                  # Prepare SQL query (adapt field names to match your CSV)
+                  #sql query#
                     sql = """
                         INSERT INTO jobs (id, job) 
                         VALUES (%s, %s)
@@ -107,12 +97,17 @@ def process_employee(file_path, error_file):
             csv_reader = csv.DictReader(file) # Assuming the first row is a header
             for row in csv_reader:
                 try:
-                  # Prepare SQL query (adapt field names to match your CSV)
+                    try:
+                        date_value = datetime.strptime(row['datetime'], '%Y-%m-%dT%H:%M:%SZ')
+                    except ValueError:
+                            raise ValueError(f"Formato de fecha incorrecto en fila {row['id']}: {row['datetime']}")
+                        
+                 
                     sql = """
                         INSERT INTO employees (id,name, datetime, department_id, job_id) 
                         VALUES (%s,%s,%s, %s, %s)
                     """
-                    values = (row['id'],row['name'], row['datetime'], row['department_id'], row['job_id'])
+                    values = (row['id'],row['name'], date_value, row['department_id'], row['job_id'])
                     cursor.execute(sql, values)
                     connection.commit()
                 except Exception as e:
