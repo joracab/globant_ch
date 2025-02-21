@@ -17,4 +17,4 @@ app.register_blueprint(backup_bp, url_prefix="/backup")
 app.register_blueprint(reports_bp, url_prefix="/reports")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(port=8000,debug=True)
