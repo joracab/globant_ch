@@ -1,23 +1,26 @@
-from flask import Flask, request, jsonify
+from flask import  Blueprint,Flask, request, jsonify
 import pymysql
+from config import Config
 
-# ConfigDB
-db_config = {
-    "host": "your_host",
-    "user": "your_user",
-    "password": "your_password",
-    "database": "your_database",
-    "cursorclass": pymysql.cursors.DictCursor
-}
+jobs_bp=Blueprint("jobs",__name__)
+# database config
+def get_db_connection():
+    return pymysql.connect(
+        host=Config.DB_HOST,
+        user=Config.DB_USER,
+        password=Config.DB_PASSWORD,
+        port=Config.DB_PORT,
+        charset=Config.DB_CHARSET,
+        database=Config.DB_NAME,
+        cursorclass=pymysql.cursors.DictCursor
+    )
 
-# Init Flask
-app = Flask(__name__)
 
-# get all depts
-@app.route("/jobs", methods=["GET"])
+# get all jobs
+@jobs_bp.route("/jobs", methods=["GET"])
 def get_jobs():
     try:
-        with pymysql.connect(**db_config) as connection, connection.cursor() as cursor:
+        with get_db_connection() as connection, connection.cursor() as cursor:
             cursor.execute("SELECT * FROM jobs")
             jobs = cursor.fetchall()
             return jsonify(jobs)
@@ -25,10 +28,10 @@ def get_jobs():
         return jsonify({"error": str(e)}), 500
 
 # Get job by ID
-@app.route("/jobs/<int:id>", methods=["GET"])
+@jobs_bp.route("/jobs/<int:id>", methods=["GET"])
 def get_job(id):
     try:
-        with pymysql.connect(**db_config) as connection, connection.cursor() as cursor:
+        with get_db_connection() as connection, connection.cursor() as cursor:
             cursor.execute("SELECT * FROM jobs WHERE id = %s", (id,))
             job = cursor.fetchone()
             if not job:
@@ -38,12 +41,12 @@ def get_job(id):
         return jsonify({"error": str(e)}), 500
 
 # Insert new job
-@app.route("/jobs", methods=["POST"])
+@jobs_bp.route("/jobs", methods=["POST"])
 def create_job():
     try:
         data = request.json
         
-        with pymysql.connect(**db_config) as connection, connection.cursor() as cursor:
+        with get_db_connection() as connection, connection.cursor() as cursor:
             sql = "INSERT INTO jobs (id, job) VALUES (%s, %s)"
             cursor.execute(sql, (data['id'], data['job']))
             connection.commit()
@@ -52,12 +55,12 @@ def create_job():
         return jsonify({"error": str(e)}), 500
 
 # Update job
-@app.route("/jobs/<int:id>", methods=["PUT"])
+@jobs_bp.route("/<int:id>", methods=["PUT"])
 def update_job(id):
     try:
         data = request.json
         
-        with pymysql.connect(**db_config) as connection, connection.cursor() as cursor:
+        with get_db_connection() as connection, connection.cursor() as cursor:
             sql = "UPDATE jobs SET job=%s WHERE id=%s"
             cursor.execute(sql, (data['job'], id))
             connection.commit()
@@ -66,15 +69,12 @@ def update_job(id):
         return jsonify({"error": str(e)}), 500
 
 # Delete job
-@app.route("/job/<int:id>", methods=["DELETE"])
+@jobs_bp.route("/<int:id>", methods=["DELETE"])
 def delete_job(id):
     try:
-        with pymysql.connect(**db_config) as connection, connection.cursor() as cursor:
+        with get_db_connection() as connection, connection.cursor() as cursor:
             cursor.execute("DELETE FROM jobs WHERE id = %s", (id,))
             connection.commit()
         return jsonify({"message": "job deleted!"})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
-if __name__ == "__main__":
-    app.run(debug=True) 
