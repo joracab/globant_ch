@@ -14,7 +14,7 @@ db_config = {
 app = Flask(__name__)
 
 # get all depts
-@app.route("/jobs, methods=["GET"])
+@app.route("/jobs", methods=["GET"])
 def get_jobs():
     try:
         with pymysql.connect(**db_config) as connection, connection.cursor() as cursor:
@@ -77,4 +77,4 @@ def delete_job(id):
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True) 
