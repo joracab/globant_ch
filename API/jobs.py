@@ -29,7 +29,7 @@ def get_jobs():
 def get_job(id):
     try:
         with pymysql.connect(**db_config) as connection, connection.cursor() as cursor:
-            cursor.execute("SELECT * FROM job WHERE id = %s", (id,))
+            cursor.execute("SELECT * FROM jobs WHERE id = %s", (id,))
             job = cursor.fetchone()
             if not job:
                 return jsonify({"error": "job not found"}), 404
@@ -44,7 +44,7 @@ def create_job():
         data = request.json
         
         with pymysql.connect(**db_config) as connection, connection.cursor() as cursor:
-            sql = "INSERT INTO jobs (id, department) VALUES (%s, %s)"
+            sql = "INSERT INTO jobs (id, job) VALUES (%s, %s)"
             cursor.execute(sql, (data['id'], data['job']))
             connection.commit()
         return jsonify({"message": "job created"})
