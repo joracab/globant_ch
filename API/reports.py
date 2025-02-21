@@ -30,14 +30,14 @@ def get_hiring_report():
                 d.id,
                 d.department, 
                 j.job, 
-                SUM(CASE WHEN QUARTER(e.hire_date) = 1 THEN 1 ELSE 0 END) AS Q1,
-                SUM(CASE WHEN QUARTER(e.hire_date) = 2 THEN 1 ELSE 0 END) AS Q2,
-                SUM(CASE WHEN QUARTER(e.hire_date) = 3 THEN 1 ELSE 0 END) AS Q3,
-                SUM(CASE WHEN QUARTER(e.hire_date) = 4 THEN 1 ELSE 0 END) AS Q4
+                SUM(CASE WHEN QUARTER(e.datetime) = 1 THEN 1 ELSE 0 END) AS Q1,
+                SUM(CASE WHEN QUARTER(e.datetime) = 2 THEN 1 ELSE 0 END) AS Q2,
+                SUM(CASE WHEN QUARTER(e.datetime) = 3 THEN 1 ELSE 0 END) AS Q3,
+                SUM(CASE WHEN QUARTER(e.datetime) = 4 THEN 1 ELSE 0 END) AS Q4
             FROM employees e
             JOIN departments d ON e.department_id = d.id
             JOIN jobs j ON e.job_id = j.id
-            WHERE YEAR(e.hire_date) = %s
+            WHERE YEAR(e.datetime) = %s
             GROUP BY d.id, d.department, j.job
             ORDER BY d.department ASC, j.job ASC
         """
@@ -84,7 +84,7 @@ def get_top_hiring_departments():
                 COUNT(*) AS employees_hired
             FROM employees e
             JOIN departments d ON e.department_id = d.id
-            WHERE YEAR(e.hire_date) = %s
+            WHERE YEAR(e.datetime) = %s
             GROUP BY d.id, d.department
             HAVING employees_hired > %s
             ORDER BY employees_hired DESC
