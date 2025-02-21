@@ -34,3 +34,15 @@ Error inserting row: {'id': '9', 'departament': 'Marketing'} - Error: 'departmen
 Error inserting row: {'id': '10', 'departament': 'Training'} - Error: 'department'
 Error inserting row: {'id': '11', 'departament': 'Legal'} - Error: 'department'
 Error inserting row: {'id': '12', 'departament': 'Accounting'} - Error: 'department'
+Error inserting row: {'id': '1', 'department': 'Product Management'} - Error: (1062, "Duplicate entry '1' for key 'departments.PRIMARY'")
+Error inserting row: {'id': '2', 'department': 'Sales'} - Error: (1062, "Duplicate entry '2' for key 'departments.PRIMARY'")
+Error inserting row: {'id': '3', 'department': 'Research and Development'} - Error: (1062, "Duplicate entry '3' for key 'departments.PRIMARY'")
+Error inserting row: {'id': '4', 'department': 'Business Development'} - Error: (1062, "Duplicate entry '4' for key 'departments.PRIMARY'")
+Error inserting row: {'id': '5', 'department': 'Engineering'} - Error: (1062, "Duplicate entry '5' for key 'departments.PRIMARY'")
+Error inserting row: {'id': '6', 'department': 'Human Resources'} - Error: (1062, "Duplicate entry '6' for key 'departments.PRIMARY'")
+Error inserting row: {'id': '7', 'department': 'Services'} - Error: (1062, "Duplicate entry '7' for key 'departments.PRIMARY'")
+Error inserting row: {'id': '8', 'department': 'Support'} - Error: (1062, "Duplicate entry '8' for key 'departments.PRIMARY'")
+Error inserting row: {'id': '9', 'department': 'Marketing'} - Error: (1062, "Duplicate entry '9' for key 'departments.PRIMARY'")
+Error inserting row: {'id': '10', 'department': 'Training'} - Error: (1062, "Duplicate entry '10' for key 'departments.PRIMARY'")
+Error inserting row: {'id': '11', 'department': 'Legal'} - Error: (1062, "Duplicate entry '11' for key 'departments.PRIMARY'")
+Error inserting row: {'id': '12', 'department': 'Accounting'} - Error: (1062, "Duplicate entry '12' for key 'departments.PRIMARY'")

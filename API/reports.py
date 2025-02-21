@@ -16,6 +16,7 @@ def get_db_connection():
         cursorclass=pymysql.cursors.DictCursor
     )
 
+
 @reports_bp.route("/hiring-report", methods=["GET"])
 def get_hiring_report():
     
@@ -55,6 +56,7 @@ def get_hiring_report():
         connection.close()
 
 @reports_bp.route("/top-hiring-departments", methods=["GET"])
+
 def get_top_hiring_departments():
   
     try:
@@ -69,7 +71,7 @@ def get_top_hiring_departments():
                 SELECT d.id, COUNT(*) as hired_count
                 FROM employees e
                 JOIN departments d ON e.department_id = d.id
-                WHERE YEAR(e.hire_date) = %s
+                WHERE YEAR(e.datetime) = %s
                 GROUP BY d.id
             ) AS department_hires
         """
