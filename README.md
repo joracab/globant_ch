@@ -112,6 +112,8 @@ Consulte el script SQL incluido para ver los detalles exactos del esquema.
 
    - Reportes: `GET /top-hiring-departments`
 
+   
+
 ## Consideraciones de Seguridad
 
 - Implementar mecanismos de autenticación y autorización en los endpoints del API.
