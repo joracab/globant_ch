@@ -48,7 +48,7 @@ def create_department():
             sql = "INSERT INTO departments (id, department) VALUES (%s, %s)"
             cursor.execute(sql, (data['id'], data['department']))
             connection.commit()
-        return jsonify({"message": "Departamento creado exitosamente"})
+        return jsonify({"message": "Department created"})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 

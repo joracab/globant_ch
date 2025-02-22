@@ -75,10 +75,42 @@ Consulte el script SQL incluido para ver los detalles exactos del esquema.
    ```
 
 4. **Uso del API:**
-   - Insertar datos: `POST /insertData`
+   - installdb: se ejecuta manualmente
    - Realizar respaldo: `POST /backup`
-   - Restaurar datos: `POST /restore`
-   - Consultar métricas:\n   - Métricas trimestrales: `GET /metrics/quarterly`\n   - Métricas por departamento: `GET /metrics/departments`
+
+   - DEpartments  Get all: `GET /departments`
+
+   - Departments Get by id : `GET /departments/{id}`
+
+   - Departments create: `POST /departments`
+
+   - Departments update: `PUT /departments/{id}`
+
+   - Departments delete: `DELETE /departments/{id}`
+   
+   - Jobs Get all: `GET /jobs`
+
+   - Jobs Get by id : `GET /jobs/{id}`
+
+   - Jobs create: `POST /jobs`
+
+   - Jobs update: `PUT /jobs/{id}`
+
+   - Jobs delete: `DELETE /jobs/{id}`
+
+   - Employees  Get all: `GET /employees`
+
+   - Employees Get by id : `GET /employees/{id}`
+
+   - Employees create: `POST /employees`
+
+   - Employees update: `PUT /employees/{id}`
+
+   - Employees delete: `DELETE /employees/{id}`
+   
+   - Reportes: `GET /hiring-report`
+
+   - Reportes: `GET /top-hiring-departments`
 
 ## Consideraciones de Seguridad
 
